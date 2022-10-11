@@ -1,0 +1,17 @@
+@media(min-width:0){
+    .menu{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .menu .btn{
+        background: transparent;
+        color: var(--btnColor);
+        border: 2px solid var(--btnColor);
+    }
+}
+@media(min-width: 1065px){
+    .menu{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}

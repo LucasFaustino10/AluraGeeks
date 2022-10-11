@@ -1,0 +1,50 @@
+@media(min-width:0){
+    .banner{
+        background:url(../imagens/banner-image.png);
+        background-size: cover;
+        color: var(--bodyColor);
+        display: flex;
+        flex-direction: column;
+        height: 17vh;
+        justify-content: flex-end;
+        padding: 4%;
+    }
+    .banner h1{
+        font-size: 1.4em;
+        font-weight: 700;
+        padding-bottom: 2%;
+    }
+    .banner h3{
+        font-size: 1em;
+        font-weight: 700;
+        padding-bottom: 2%;
+    }
+}
+@media(min-width:765px){
+    .banner{
+        height: 20vh;
+    }
+    .banner h1{
+        font-size: 2.2em;
+    }
+    .banner h3{
+        font-size: 1.4em;
+
+    }
+}
+@media(min-width: 1024px){
+    .banner{
+        height: 40vh;
+        padding-bottom: 1.5%;
+        padding-left: 10%;
+    }
+    .banner h1{
+        font-size: 4.8em;
+        padding-bottom: 1%;
+    }
+    .banner h3{
+        font-size: 2.7em;
+        padding-bottom: 1%;
+
+    }
+}
