@@ -2,12 +2,14 @@
     --bodyColor: #FFFFFF;
     --mainColor: #F5F5F5;
     --contactColor: #EAF2FD;
+    --fontColor:#464646;
     --btnColor: #2A7AE4;
 }
 @media (min-width: 0) {
     body{
         background-color: var(--bodyColor);
         font-family: 'Raleway', sans-serif;
+        color: var(--fontColor);
     }
     main{
         background-color: var(--mainColor);
@@ -36,6 +38,12 @@
     .btn:focus{
         font-size: .9em;
         cursor: pointer;
+    }
+    a{
+        font-size: .9em;
+        font-weight: 600;
+        color: var(--btnColor);
+        text-decoration: none;  
     }
 }
 @media(min-width: 765px){

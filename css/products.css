@@ -1,0 +1,39 @@
+@media(min-width:0){
+    .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.3em 0;
+        width: 100%;
+    }
+    .title h2{
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    .product{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 510px;
+    }
+    figure{
+        padding-bottom: 1em;
+        
+    }
+    figure img{
+        width: 170px;
+        padding-bottom: .5em;
+    }
+    figcaption{
+        font-size: 1em;
+        font-weight: 500;
+        padding-bottom: .5em;
+    } 
+    figure h2{
+        font-size: 1em;
+        font-weight: 600;
+        padding-bottom: .5em;
+    }
+
+}
