@@ -1,39 +1,91 @@
-@media(min-width:0){
-    .title{
+@media(min-width:0) {
+    .products{
+        padding-bottom: 1.5em;
+    }
+    .title {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1.3em 0;
         width: 100%;
     }
-    .title h2{
+
+    .title h2 {
         font-size: 1.4em;
         font-weight: 600;
     }
-    .product{
+    .product {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         overflow: hidden;
-        height: 510px;
+        height: 495px;
+        width: 100%;
+        margin-bottom: 1em;
     }
-    figure{
+
+    figure {
         padding-bottom: 1em;
-        
     }
-    figure img{
-        width: 170px;
+
+    figure img {
+        width: 160px;
         padding-bottom: .5em;
     }
-    figcaption{
+
+    figcaption {
         font-size: 1em;
         font-weight: 500;
         padding-bottom: .5em;
-    } 
-    figure h2{
+    }
+
+    figure h2 {
         font-size: 1em;
         font-weight: 600;
         padding-bottom: .5em;
     }
+}
 
+@media(min-width: 765px) {
+    .product {
+        height: 245px;
+    }
+}
+@media(min-width: 1065px) {
+    .products {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.3em 0;
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+    .product{
+        height: 330px;
+        margin-bottom: 1.5em;
+    }
+    figure img {
+        width: 220px;
+        padding-bottom: .5em;
+    }
+
+    figcaption {
+        font-size: 1.4em;
+        font-weight: 500;
+        padding-bottom: .8em;
+    }
+
+    figure h2 {
+        font-size: 1.4em;
+        font-weight: 600;
+        padding-bottom: .5em;
+    }
 }

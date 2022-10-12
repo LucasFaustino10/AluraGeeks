@@ -199,32 +199,51 @@
         </section>
         <section class="aboutUs">
             <div class="container">
-                <img class="logo" src="./imagens/logo.svg" alt="">
-                <a href="">About Us</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Fidelity Program</a>
-                <a href="">Our Stores</a>
-                <a href="">I want to be a Franchisee</a>
-                <a href="">Advertise here</a>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form action="">
-                    <fieldset>
-                        <label for="name">Name:</label>
-                        <input id="name" type="text" name="name">
-                        <label for="mensage">Mensage:</label>
-                        <textarea name="mensage" id="mensage" cols="30" rows="10"></textarea>
-                        <button class="btn"> Send Mensage</button>
-                    </fieldset>
-                </form>
+                <nav class="aboutUs__nav">
+                    <ul>
+                        <li>
+                            <img class="logo" src="./imagens/logo.svg" alt="">
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Our Stores</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Advertise here</a>
+                        </li>
+                        <li>
+                            <a href="">Fidelity Program</a>
+                        </li>
+                        <li>
+                            <a href="">I want to be a Franchisee</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="contact">
+                        <h2 class="contact__title">Contact Us</h2>
+                        <form class="contact__form" action="">
+                            <fieldset class="field">
+                                <label for="name">Name</label>
+                                <input id="name" type="text" name="name">
+                            </fieldset>
+                            <fieldset class="field">
+                                <label for="mensage">Mensage</label>
+                                <textarea name="mensage" id="mensage" cols="30" rows="10"></textarea>
+                            </fieldset>
+                            <button type="submit" class="btn"> Send Mensage</button>
+                        </form>
+                </section>
             </div>
         </section>
     </main>
     <footer>
-        <h2>Developed by Lucas Faustino</p>
+        <h2>Developed by Lucas Faustino</p><br>
+        <time>2022</time>
     </footer>
 </body>
 

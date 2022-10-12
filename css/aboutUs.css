@@ -1,0 +1,72 @@
+@media(min-width: 0){
+    .aboutUs{
+        background-color: var(--contactColor);
+    }
+    .aboutUs__nav{
+        text-align: center;
+        width: 100%;
+        padding-bottom:2em ;
+    }
+    .aboutUs__nav .logo{
+        width: 160px;
+    }
+    .aboutUs__nav li{
+        padding-top: .4em;
+        padding-bottom: .4em;
+    }
+    .aboutUs__nav li a{
+        font-weight: 500;
+        color: var(--fontColor);
+    }
+    .contact{
+        padding-bottom: 2em;
+        width: 100%;
+    }
+    .contact__title{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .field{
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+        gap: .5em;
+        background-color: var(--bodyColor);
+        border-radius: 20px;
+    }
+    .field label{
+        color: var(--fontColor);
+        font-weight: 600;
+        padding: 1em;
+    }
+    .field input,
+    .field textarea{
+        padding: 1em;
+        border: none;
+        border-radius: 20px;
+    }
+}
+@media(min-width:765px){
+    .aboutUs__nav{
+        width: 25%;
+        text-align: left;
+    }
+    .aboutUs__nav li{
+        padding-bottom: 2em;
+    }
+    .aboutUs__nav li a{
+        font-size: 1.4em;
+    }
+    .contact{
+        width: 70%;
+        padding-top: 1em ;
+    }
+}
+@media(min-width: 1065px){
+    .aboutUs__nav{
+        width: 45%;
+    }
+    .contact{
+        width: 50%;
+    }
+}
