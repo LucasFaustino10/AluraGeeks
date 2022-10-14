@@ -8,6 +8,24 @@
         color: var(--btnColor);
         border: 2px solid var(--btnColor);
     }
+    .search__input{
+        background-color: var(--mainColor);
+        display: none;
+        border-radius: 20px;
+    }
+}
+@media(min-width: 765px){
+    .search{
+        background-color: var(--mainColor);
+        border-radius: 20px;
+    }
+    .search__input{
+        display: inline-block;
+        background-color: var(--mainColor);
+        border-radius: 20px;
+        border: none;
+        padding: .7em;
+    }
 }
 @media(min-width: 1065px){
     .menu{

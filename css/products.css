@@ -14,6 +14,9 @@
         font-size: 1.4em;
         font-weight: 600;
     }
+    .icon-seeAll{
+        width: 12px;
+    }
     .product {
         display: flex;
         justify-content: space-between;
@@ -75,6 +78,9 @@
     figure img {
         width: 220px;
         padding-bottom: .5em;
+    }
+    .icon-seeAll{
+        width: 18px;
     }
 
     figcaption {
