@@ -1,0 +1,42 @@
+@media(min-width: 0){
+    .container{
+        justify-content: center;
+    }
+    .pageLogin{
+        margin-bottom: 5em;
+        margin-top: 5em;
+        width: 80%;
+    }
+    .pageLogin .logo{
+        width: 80%;
+        padding-bottom: 4em;
+    }
+    .login__title{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+@media(min-width: 765px){
+    .pageLogin{
+        width: 60%;
+    }
+    .login__title{
+        font-size: 2em;
+    }
+    .field input{
+        padding: 4em;
+        font-size: 1em;
+    }
+}
+@media(min-width: 1065px){
+    .pageLogin{
+        width: 40%;
+        text-align: center;
+    }
+    .login__form{
+        text-align: left;
+    }
+    .field input{
+        font-size: 1.4em;
+    }
+}

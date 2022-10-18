@@ -1,6 +1,7 @@
 @media(min-width: 0){
     .aboutUs{
         background-color: var(--contactColor);
+        width: 100%;
     }
     .aboutUs__nav{
         text-align: center;
